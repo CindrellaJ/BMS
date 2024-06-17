@@ -72,3 +72,9 @@ create table account_info
 commit;
 
 show tables;
+
+-- bank info data
+
+insert into bank_info(ifsc_code, bank_name, branch_name) values ("HDVL0012", "HDFC", "VALASARAVAKKUM");
+insert into bank_info(ifsc_code, bank_name, branch_name) values ("SBITN013", "SBI", "TRICHY");
+insert into bank_info(ifsc_code, bank_name, branch_name) values ("ICIU0012", "ICICI", "THANJAVUR");
